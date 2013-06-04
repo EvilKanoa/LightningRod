@@ -1,0 +1,66 @@
+name: LightningRod
+main: com.kanoa.LightningRod.LightningRod
+version: 2.31
+permissions:
+    lr.*:
+        description: Gives access to all LightningRod commands and features
+        default: op
+        children:
+            lr.reload: true
+            lr.help: true
+            lr.spawnrod: true
+            lr.use.healthrod: true
+            lr.use.companionrod: true
+            lr.use.lightningrod: true
+            lr.use.hungerrod: true
+            lr.use.creeperrod: true
+            lr.use.explosionrod: true
+            lr.use.parkourrod: true
+            lr.use.firerod: true
+            lr.use.arrowrod: true
+            lr.use.weatherrod: true
+    lr.use.healthrod:
+        description: Allows you to use the Health rod
+        default: true
+    lr.use.companionrod:
+        description: Allows you to use the Companion Rod
+        default: true
+    lr.use.lightningrod:
+        description: Allows you to use the Lightning Rod
+        default: true
+    lr.use.hungerrod:
+        description: Allows you to use the Hunger Rod
+        default: true
+    lr.use.creeperrod:
+        description: Allows you to use the Creeper Rod
+        default: true
+    lr.use.explosionrod:
+        description: Allows you to use the Explosion Rod
+        default: true
+    lr.use.enderrod:
+        description: Allows you to use the Ender Rod
+        default: true
+    lr.use.parkourrod:
+        description: Allows you to use the Parkour Rod
+        default: true
+    lr.use.firerod:
+        description: Allows you to use the Fire Rod
+        default: true
+    lr.use.arrowrod:
+        description: Allows you to use the Arrow Rod
+        default: true
+    lr.use.weatherrod:
+        description: Allows you to use the Weather Rod
+        default: true
+    lr.spawnrod:
+        description: Allows you to use /lr spawnrod
+        default: op
+    lr.help:
+        description: Allows you to use the /lr help commend
+        default: true
+    lr.reload:
+        description: Allows you to reload config.yml
+        default: op
+commands:
+    lr:
+        description: Base for all LightningRod commands

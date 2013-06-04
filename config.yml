@@ -1,0 +1,62 @@
+#Enable the metrics feature?
+metrics: true
+#Item to be used as the Rod
+rodID: 369
+#Amount of time it takes for any magic rod to regen, in secounds.
+regen_time: 3 
+#Number of rods gotten each time crafted, 0-64
+craft_number: 4
+#Number of rods you get when you type /lr spawnrod, 0-64
+spawn_number: 64
+enabled:
+    #Set to false to disable use of any rod.
+    health_rod: true
+    companion_rod: true
+    lightning_rod: true
+    hunger_rod: true
+    creeper_rod: true
+    explosion_rod: true
+    ender_rod: true
+    parkour_rod: true
+    fire_rod: true
+    arrow_rod: true
+    weather_rod: true
+name:
+    #The names that appear on crafted rods
+    health_rod: "Health Rod"
+    companion_rod: "Companion Rod"
+    lightning_rod: "Lightning Rod"
+    hunger_rod: "Hunger Rod"
+    creeper_rod: "Creeper Rod"
+    explosion_rod: "Explosion Rod"
+    ender_rod: "Ender Rod"
+    parkour_rod: "Parkour Rod"
+    fire_rod: "Fire Rod"
+    arrow_rod: "Arrow Rod"
+    weather_rod: "Weather Rod"
+effect:
+    #The power of effects for each rod, check out the bukkit dev page for more info about effects.
+    health_rod: 10 
+    companion_rod: 1
+    lightning_rod: 30
+    hunger_rod: 15
+    creeper_rod: 1
+    explosion_rod: 30
+    ender_rod: 1
+    parkour_rod: 15
+    fire_rod: 1
+    arrow_rod: 3
+    weather_rod: 3
+cost:
+    #Cost for each use, in number of rods used.
+    health_rod: 1
+    companion_rod: 1
+    lightning_rod: 1
+    hunger_rod: 1
+    creeper_rod: 1
+    explosion_rod: 1
+    ender_rod: 1
+    parkour_rod: 1
+    fire_rod: 1
+    arrow_rod: 1
+    weather_rod: 1
